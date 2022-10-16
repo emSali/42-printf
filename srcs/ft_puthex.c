@@ -6,13 +6,13 @@
 /*   By: esali <esali@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/10 18:11:10 by esali             #+#    #+#             */
-/*   Updated: 2022/10/11 15:13:53 by esali            ###   ########.fr       */
+/*   Updated: 2022/10/16 15:15:59 by esali            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../ft_printf.h"
 
-void	convert(long n) {
+void	convert(unsigned long int n) {
 	if (n > 0)
 	{
 		convert(n / 16);

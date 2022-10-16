@@ -6,7 +6,7 @@
 /*   By: esali <esali@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/02 13:44:57 by esali             #+#    #+#             */
-/*   Updated: 2022/10/11 15:57:33 by esali            ###   ########.fr       */
+/*   Updated: 2022/10/16 15:15:59 by esali            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,6 @@
 # include <stdlib.h>
 # include <unistd.h>
 
-int	count;
-
 int		ft_printf(const char *c, ...);
 void	ft_putchar(int c);
 void	distribute(char c, va_list ap);
@@ -31,10 +29,10 @@ void	putint(int n);
 void	ft_putu(unsigned int n);
 void	putu(unsigned int n);
 void	dectohex(int n);
-void	convert(long n);
+void	convert(unsigned long int n);
 void	dectohex_up(int n);
 void	convert_up(long n);
-void	ft_putptr(unsigned long int);
+void	ft_putptr(void *ptr);
 
 
 #endif

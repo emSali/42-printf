@@ -6,18 +6,19 @@
 /*   By: esali <esali@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/03 11:21:25 by esali             #+#    #+#             */
-/*   Updated: 2022/10/10 16:21:52 by esali            ###   ########.fr       */
+/*   Updated: 2022/10/16 15:17:39 by esali            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../ft_printf.h"
 
 void	ft_putstr(char *str) {
-	if (!str)
-		return ;
-	while (*str != 0) {
+	if (str == NULL)
+		ft_putstr("(null)");
+	else {
+		while (*str != 0) {
 		ft_putchar(*str);
 		str++;
+		}
 	}
 }
-
