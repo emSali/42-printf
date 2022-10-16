@@ -6,7 +6,7 @@
 /*   By: esali <esali@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/03 11:41:59 by esali             #+#    #+#             */
-/*   Updated: 2022/10/16 15:16:46 by esali            ###   ########.fr       */
+/*   Updated: 2022/10/16 18:49:49 by esali            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ void	ft_putu(unsigned int n)
 
 void	putu(unsigned int n)
 {
-	char p;
+	char	p;
 
 	if (n > 0)
 	{
@@ -58,6 +58,3 @@ void	putu(unsigned int n)
 		ft_putchar(p);
 	}
 }
-
-
-

@@ -6,14 +6,14 @@
 /*   By: esali <esali@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/02 13:44:57 by esali             #+#    #+#             */
-/*   Updated: 2022/10/16 15:15:59 by esali            ###   ########.fr       */
+/*   Updated: 2022/10/16 18:43:20 by esali            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
-#include <stdarg.h>
+# include <stdarg.h>
 # include <string.h>
 # include <stdio.h>
 # include <ctype.h>
@@ -33,6 +33,5 @@ void	convert(unsigned long int n);
 void	dectohex_up(int n);
 void	convert_up(long n);
 void	ft_putptr(void *ptr);
-
 
 #endif
